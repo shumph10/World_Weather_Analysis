@@ -18,8 +18,11 @@ With this information, a GMAPS figure was created showing markers for all locati
 
 ![preferred_cities_gmaps_labeled](https://user-images.githubusercontent.com/100040705/164981966-ca385fb7-c4e2-471c-88de-58e3bb185077.png)
 
+
 An additional map was created to show the route between four cities so users can see travel options and get directions and travel times. The resulting figure is as shown below. The same pop up markers are available in this map as well. 
 
+
+![preferred_cities_gmaps_labeled](https://user-images.githubusercontent.com/100040705/164982670-4060c939-6519-4ad1-9d40-408dec57068b.png)
 
 ##**Summary**
 Based on input received from beta testers, the travel app was updated to be more interactive, allowing user selection of desired weather conditions and filtering a master list so the results are tailored to users needs. These selections were then used to show all travel destinations with hotels and weather conditions for user selection. Travel routes and times between desired cities is shown through maps, allowing users to have many options when planning their itinerary. Highly interactive applications allow ease of use for users and create the most streamlined experience possible, allow drives in profit and customer satisfaction. These application updates will be used for future beta testing, and could be refactored to futher tailer to user parameters. 
