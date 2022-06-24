@@ -11,16 +11,13 @@ To aid in the creation and beta testing of an app that takes user input to plan 
 ##**Results** 
 The original database used for additionally preferentially selection was created with 2000 random numbers and citipy was used to find cities close to the coordinates generated. This resulted in a master list of 742 cities to choose parameters for(available in Weather_Database folder, in the WeatherPy_Database.csv). From this list user input for desired minimum and maximum temperature, and GMAPS API was used to find hotels within a 5k meter radius, the data was cleaned through dropping any rows with null values(available in Vacation_Search folder, in the WeatherPy_vacation.csv). The resulting database is shown below. 
 
-
 ![cleaned_hotel_df](https://user-images.githubusercontent.com/100040705/164981867-9b63b92f-48b1-45d3-b74a-4db18fd94bfb.png)
 
 With this information, a GMAPS figure was created showing markers for all locations with hotels nearby within the users search parameters. Pop up boxes were created to show desired information, city & country name, current weather description, and maximum temperature for the city. The figure created is as shown below. 
 
 ![preferred_cities_gmaps_labeled](https://user-images.githubusercontent.com/100040705/164981966-ca385fb7-c4e2-471c-88de-58e3bb185077.png)
 
-
 An additional map was created to show the route between four cities so users can see travel options and get directions and travel times. The resulting figure is as shown below. The same pop up markers are available in this map as well. 
-
 
 ![preferred_cities_gmaps_labeled](https://user-images.githubusercontent.com/100040705/164982670-4060c939-6519-4ad1-9d40-408dec57068b.png)
 
