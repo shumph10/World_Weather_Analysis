@@ -27,3 +27,5 @@ An additional map was created to show the route between four cities so users can
 ##**Summary**
 Based on input received from beta testers, the travel app was updated to be more interactive, allowing user selection of desired weather conditions and filtering a master list so the results are tailored to users needs. These selections were then used to show all travel destinations with hotels and weather conditions for user selection. Travel routes and times between desired cities is shown through maps, allowing users to have many options when planning their itinerary. Highly interactive applications allow ease of use for users and create the most streamlined experience possible, allow drives in profit and customer satisfaction. These application updates will be used for future beta testing, and could be refactored to futher tailer to user parameters. 
 
+##**Contact:**
+- sarahhumphrey2016@outlook.com
