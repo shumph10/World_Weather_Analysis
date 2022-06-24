@@ -1,5 +1,5 @@
 # World_Weather_Analysis
-Analysis of 2000 randomly generated coordinate pairs for city location and weather conditions for development of user input responsive travel plans. The user input will generate a list of cities that mean desired weather conditions and generate an output with nearby hotels, as well as give details for travel times before multiple cities if desired. 
+Analysis of 2000 randomly generated coordinate pairs for city location and weather conditions for development of user input responsive travel plans. The user input will generate a list of cities that meet desired weather conditions and generate an output with nearby hotels, as well as give details for travel times before multiple cities if desired. 
 
 ##**Resources**
 Data Sources: cities.csv
