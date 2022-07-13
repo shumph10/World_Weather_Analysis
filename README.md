@@ -1,5 +1,5 @@
 # World_Weather_Analysis
-Analysis of 2000 randomly generated coordinate pairs for city location and weather conditions for development of user input responsive travel plans. The user input will generate a list of cities that mean desired weather conditions and generate an output with nearby hotels, as well as give details for travel times before multiple cities if desired. 
+Analysis of 2000 randomly generated coordinate pairs for city location and weather conditions for development of user input responsive travel plans. The user input will generate a list of cities that meet desired weather conditions and generate an output with nearby hotels, as well as give details for travel times before multiple cities if desired. 
 
 ##**Resources**
 Data Sources: cities.csv
@@ -11,19 +11,18 @@ To aid in the creation and beta testing of an app that takes user input to plan 
 ##**Results** 
 The original database used for additionally preferentially selection was created with 2000 random numbers and citipy was used to find cities close to the coordinates generated. This resulted in a master list of 742 cities to choose parameters for(available in Weather_Database folder, in the WeatherPy_Database.csv). From this list user input for desired minimum and maximum temperature, and GMAPS API was used to find hotels within a 5k meter radius, the data was cleaned through dropping any rows with null values(available in Vacation_Search folder, in the WeatherPy_vacation.csv). The resulting database is shown below. 
 
-
 ![cleaned_hotel_df](https://user-images.githubusercontent.com/100040705/164981867-9b63b92f-48b1-45d3-b74a-4db18fd94bfb.png)
 
 With this information, a GMAPS figure was created showing markers for all locations with hotels nearby within the users search parameters. Pop up boxes were created to show desired information, city & country name, current weather description, and maximum temperature for the city. The figure created is as shown below. 
 
 ![preferred_cities_gmaps_labeled](https://user-images.githubusercontent.com/100040705/164981966-ca385fb7-c4e2-471c-88de-58e3bb185077.png)
 
-
 An additional map was created to show the route between four cities so users can see travel options and get directions and travel times. The resulting figure is as shown below. The same pop up markers are available in this map as well. 
-
 
 ![preferred_cities_gmaps_labeled](https://user-images.githubusercontent.com/100040705/164982670-4060c939-6519-4ad1-9d40-408dec57068b.png)
 
 ##**Summary**
 Based on input received from beta testers, the travel app was updated to be more interactive, allowing user selection of desired weather conditions and filtering a master list so the results are tailored to users needs. These selections were then used to show all travel destinations with hotels and weather conditions for user selection. Travel routes and times between desired cities is shown through maps, allowing users to have many options when planning their itinerary. Highly interactive applications allow ease of use for users and create the most streamlined experience possible, allow drives in profit and customer satisfaction. These application updates will be used for future beta testing, and could be refactored to futher tailer to user parameters. 
 
+##**Contact:**
+- sarahhumphrey2016@outlook.com
